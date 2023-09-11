@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E545AA82AAFC8BF0078F116 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0E545AA72AAFC8BF0078F116 /* Classes */; };
 		3E5C80232FCF89004CB8CFC3 /* Pods_SDKLibraryNetwork_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED1CFBB02BE2E346A6553A2 /* Pods_SDKLibraryNetwork_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,8 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16490DB940071A0993DF8556 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5935F7BE0E86928DFE3A86D3 /* SDKLibraryNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDKLibraryNetwork.podspec; path = ../SDKLibraryNetwork.podspec; sourceTree = "<group>"; };
+		0E545AA72AAFC8BF0078F116 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		16490DB940071A0993DF8556 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5935F7BE0E86928DFE3A86D3 /* SDKLibraryNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDKLibraryNetwork.podspec; path = ../SDKLibraryNetwork.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SDKLibraryNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKLibraryNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E24DC7051CA7DA411AF3BEE /* Pods-SDKLibraryNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKLibraryNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-SDKLibraryNetwork_Example/Pods-SDKLibraryNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		78F95D12432071AC705B565F /* Pods-SDKLibraryNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKLibraryNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDKLibraryNetwork_Tests/Pods-SDKLibraryNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		85A1A8FFDEC2F842823C0B5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85A1A8FFDEC2F842823C0B5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		89977D65F736020FD9372792 /* Pods-SDKLibraryNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKLibraryNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-SDKLibraryNetwork_Tests/Pods-SDKLibraryNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9C6E239DFCDB9A299B1BA9D9 /* Pods_SDKLibraryNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKLibraryNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41606E870B1E73F2354467A /* Pods-SDKLibraryNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKLibraryNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDKLibraryNetwork_Example/Pods-SDKLibraryNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				0E545AA72AAFC8BF0078F116 /* Classes */,
 				5935F7BE0E86928DFE3A86D3 /* SDKLibraryNetwork.podspec */,
 				16490DB940071A0993DF8556 /* README.md */,
 				85A1A8FFDEC2F842823C0B5D /* LICENSE */,
@@ -147,7 +150,6 @@
 				78F95D12432071AC705B565F /* Pods-SDKLibraryNetwork_Tests.debug.xcconfig */,
 				89977D65F736020FD9372792 /* Pods-SDKLibraryNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0E545AA82AAFC8BF0078F116 /* Classes in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

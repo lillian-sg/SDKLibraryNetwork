@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: network SDK library.
                        DESC
 
   s.homepage         = 'https://github.com/Lillian-sg/SDKLibraryNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lillian-sg' => 'souza.lillian@gmail.com' }
-  s.source           = { :git => 'https://github.com/Lillian-sg/SDKLibraryNetwork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lillian-sg/SDKLibraryNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SDKLibraryNetwork/Classes/**/*'
+  s.source_files = 'SDKLibraryNetwork/Podspec Metadata/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SDKLibraryNetwork' => ['SDKLibraryNetwork/Assets/*.png']
