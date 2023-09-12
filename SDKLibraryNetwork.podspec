@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDKLibraryNetwork'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SDKLibraryNetwork.'
+  s.version          = '1.1'
+  s.summary          = 'SDKNetwork helps developers get things done.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: network SDK library.
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                        DESC
 
   s.homepage         = 'https://github.com/Lillian-sg/SDKLibraryNetwork'
@@ -28,10 +29,11 @@ TODO: network SDK library.
   s.source           = { :git => 'https://github.com/lillian-sg/SDKLibraryNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SDKLibraryNetwork/Podspec Metadata/Classes/**/*'
+  s.source_files = 'SDKLibraryNetwork/Classes/**/*'
   
+  s.platform = :ios, '10.0'
   # s.resource_bundles = {
   #   'SDKLibraryNetwork' => ['SDKLibraryNetwork/Assets/*.png']
   # }

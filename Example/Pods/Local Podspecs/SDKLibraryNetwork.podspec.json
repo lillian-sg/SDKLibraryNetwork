@@ -1,0 +1,22 @@
+{
+  "name": "SDKLibraryNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of SDKLibraryNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Lillian-sg/SDKLibraryNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lillian-sg": "souza.lillian@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Lillian-sg/SDKLibraryNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SDKLibraryNetwork/Classes/**/*"
+}

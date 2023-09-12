@@ -1,0 +1,6 @@
+framework module SDKLibraryNetwork {
+  umbrella header "SDKLibraryNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}
